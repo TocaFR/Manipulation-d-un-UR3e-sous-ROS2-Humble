@@ -105,3 +105,10 @@ Les adresses IP sont bien configurées, vérifiez la connexion entre les deux ap
 ```
 ping 192.168.1.100
 ```
+
+# Contrôler le robot
+Maintenant que tous les préparatifs sont terminés, nous pouvons commencer à utiliser ROS2 pour piloter le robot. Voici les étapes à suivre (1 terminal par commande) :
+- Initier la connexion entre le robot et le pc à l'aide de la commande ``ros2 launch ur_robot_driver ur3e.launch.py robot_ip:=192.168.1.100`` (Cette commande est obligatoire afin d'utiliser les deux suivantes)
+- Lancez le programme robot sur le teach (afin de lancer le contrôle externe)
+- Contrôler le robot à l'aide de MoveIt! ``ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur3e``
+
