@@ -78,6 +78,6 @@ Allez dans Système > URCaps, et cliquez sur le bouton **+** En bas de la fenêt
 Puis ouvrez votre fichier externalcontrol-1.0.5.urcap dans la fenêtre qui suit, une fois cela fait attendez que l'installation se termine, on vous proposera de redémarrer le robot afin de finaliser l'installation.
 ![](assets/images/photo_1.jpeg)
 
-Une fois redémarré, nous allons configurer les adresses IP du PC et du Robot. Dans notre cas nous allons attribuer au PC l'adresse IP 192.168.1.101, et celle du robot sera 192.168.1.100.
-Les deux adresses doivent se trouver <ins>sur le même réseau</ins>
+# Configuration des adresses IP du robot et du PC
+Une fois redémarré, nous allons attribuer au PC l'adresse IP 192.168.1.102, et celle du robot sera 192.168.1.100 (Vous pouvez choisir d'autres adresses tant qu'elles seront <ins>sur le même réseau</ins>).
 
