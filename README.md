@@ -117,5 +117,7 @@ Ca y est, vous êtes capables de déplacer le robot à l'aide de votre PC. Dépl
 
 **Programme python** 
 Afin de lancer un programme python, il faut s'assurer d'abord que python est installé sur le PC.
-```sudo apt install python3.10```
+```
+sudo apt install python3.10
+```
 
