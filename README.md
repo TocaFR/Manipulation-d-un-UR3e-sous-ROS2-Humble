@@ -100,3 +100,8 @@ Une fois redémarré, nous allons attribuer au PC l'adresse IP 192.168.1.102, et
 - Rentrez l'IP du PC (contrôleur externe) comme ci-dessous
 
 ![](assets/images/urcap.jpeg)
+
+Les adresses IP sont bien configurées, vérifiez la connexion entre les deux appareils en faisant un ping dans un terminal : 
+```
+ping 192.168.1.100
+```
