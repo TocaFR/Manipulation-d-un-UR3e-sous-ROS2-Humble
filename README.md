@@ -125,4 +125,4 @@ Ensuite, vous pouvez lancer un programme à l'aide de la commande suivante :
 ```
 python3 <nom_de_votre_programme.py>
 ```
-
+Des fichiers exemples sont disponibles dans le dossier scripts, 
