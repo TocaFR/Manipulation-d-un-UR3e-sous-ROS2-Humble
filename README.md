@@ -94,3 +94,9 @@ Une fois redémarré, nous allons attribuer au PC l'adresse IP 192.168.1.102, et
 - Dans l'onglet Système > Réseau, attribuez l'adresse comme ci-dessous :
 
 ![](assets/images/robot.jpeg)
+
+**Configurer l'IP du contrôle externe (URCaps installé précédemment sur le robot)**
+- En haut à gauche, allez dans la section Installation
+- Rentrez l'IP du PC (contrôleur externe) comme ci-dessous
+
+![](assets/images/urcap.jpeg)
