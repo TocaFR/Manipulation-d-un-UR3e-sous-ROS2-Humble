@@ -86,4 +86,5 @@ Une fois redémarré, nous allons attribuer au PC l'adresse IP 192.168.1.102, et
 - Ouvrez les paramètres réseaux d’Ubuntu
 - Allez dans les paramètres de la connexion filaire du robot
 - Attribuer l'adresse comme ci-dessous :
-![-](assets/images/linux.jpeg)
+
+![](assets/images/linux.jpeg)
