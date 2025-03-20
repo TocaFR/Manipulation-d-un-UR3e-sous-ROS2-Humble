@@ -47,4 +47,14 @@ sudo apt upgrade
 ```
 sudo apt install ros-humble-desktop
 ```
-ROS2 Humble est désormais installé
+**Lancer ROS**
+ROS2 Humble est désormais installé, afin de manipuler ROS il faut le sourcer à chaque nouveau terminal créé grâce à cette commande :
+```
+source /opt/ros/humble/setup.bash
+```
+Afin d'éviter de retaper la commande à chaque fois, on peut simplement modifier le fichier .bashrc afin d'exécuter la commande à chaque nouveau terminal automatiquement :
+```
+cd
+gedit .bashrc
+```
+Un fichier texte va s'ouvrir, rajouter simplement la commande ``source /opt/ros/humble/setup.bash`` tout à la fin de ce fichier.
