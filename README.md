@@ -1,6 +1,6 @@
 # Manipulation d'un UR3e sous ROS2 Humble
 
-Dans ce tuto nous réaliserons l'installation et utiliserons un robot UR3e sous ROS2. Nous verrons comment utiliser Moveit! mais aussi comment réaliser un premier programme python.
+Dans ce tuto nous réaliserons l'installation et utiliserons un robot UR3e sous ROS2. Nous verrons comment utiliser Moveit! mais aussi comment réaliser un premier programme python. Nous avons connecté le robot ainsi que le PC sous Ubuntu 22.04 en Ethernet sur un routeur. 
 
 # Ressources utilisées
 - Linux Ubuntu 22.0.4
@@ -52,9 +52,21 @@ ROS2 Humble est désormais installé, afin de manipuler ROS il faut le sourcer �
 ```
 source /opt/ros/humble/setup.bash
 ```
+
+
 Afin d'éviter de retaper la commande à chaque fois, on peut simplement modifier le fichier .bashrc afin d'exécuter la commande à chaque nouveau terminal automatiquement :
 ```
 cd
 gedit .bashrc
 ```
-Un fichier texte va s'ouvrir, rajouter simplement la commande ``source /opt/ros/humble/setup.bash`` tout à la fin de ce fichier.
+Un fichier texte va s'ouvrir, rajouter simplement la commande ``source /opt/ros/humble/setup.bash`` tout à la fin de ce fichier. 
+
+# Installation des drivers UR pour ROS2
+Plus d'informations sur le github suivant : https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver
+Nous utiliserons directement les drivers fournis par Universal Robots afin de contrôler le robot avec ROS2. Nous les installons via cette commande : 
+```
+sudo apt-get install ros-rolling-ur
+```
+Cependant, le robot nécessite un module complémentaires (aussi appelé URCaps) permettant d'éxecuter des commandes par contrôle externe (Par addresse IPv4).
+
+
