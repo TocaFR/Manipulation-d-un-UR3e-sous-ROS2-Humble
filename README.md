@@ -112,3 +112,5 @@ Maintenant que tous les préparatifs sont terminés, nous pouvons commencer à u
 - Lancez le programme robot sur le teach (afin de lancer le contrôle externe)
 - Contrôler le robot à l'aide de MoveIt! ``ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur3e``
 
+Ca y est, vous êtes capables de déplacer le robot à l'aide de votre PC. Déplacez le robot à l'aide de votre souris, plannifiez et exécutez le déplacement vers la nouvelle position dans l'onglet MotionPlanning
+
