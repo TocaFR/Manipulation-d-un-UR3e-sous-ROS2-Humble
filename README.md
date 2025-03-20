@@ -121,4 +121,8 @@ Afin de lancer un programme python, il faut s'assurer d'abord que python est ins
 ```
 sudo apt install python3.10
 ```
+Ensuite, vous pouvez lancer un programme à l'aide de la commande suivante : 
+```
+python3 <nom_de_votre_programme.py>
+```
 
