@@ -75,4 +75,8 @@ Ensuite nous allons installer l'URCaps dans le teach, pour cela allez dans les r
 Allez dans Système > URCaps, et cliquez sur le bouton **+** En bas de la fenêtre :
 ![](assets/images/photo_2.jpeg)
 
+Puis ouvrez votre fichier externalcontrol-1.0.5.urcap dans la fenêtre qui suit, une fois cela fait attendez que l'installation se termine, on vous proposera de redémarrer le robot afin de finaliser l'installation.
+![](assets/images/photo_1.jpeg)
+
+
 
