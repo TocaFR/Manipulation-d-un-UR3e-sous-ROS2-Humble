@@ -81,3 +81,9 @@ Puis ouvrez votre fichier externalcontrol-1.0.5.urcap dans la fenêtre qui suit,
 # Configuration des adresses IP du robot et du PC
 Une fois redémarré, nous allons attribuer au PC l'adresse IP 192.168.1.102, et celle du robot sera 192.168.1.100 (Vous pouvez choisir d'autres adresses tant qu'elles seront <ins>sur le même réseau</ins>).
 
+**Configurer l'adresse IP du PC**
+- Ouvrez les paramètres d'Ubuntu
+- Ouvrez les paramètres réseaux d’Ubuntu
+- Allez dans les paramètres de la connexion filaire du robot
+- Attribuer l'adresse comme ci-dessous :
+![](assets/image/linux.jpeg)
