@@ -91,6 +91,6 @@ Une fois redémarré, nous allons attribuer au PC l'adresse IP 192.168.1.102, et
 
 **Configurer l'adresse IP du Robot**
 - Retournez dans les réglages du robot
-- Dans l'onglet réseau, attribuez l'adresse comme ci-dessous :
+- Dans l'onglet Système > Réseau, attribuez l'adresse comme ci-dessous :
 
 ![](assets/images/robot.jpeg)
