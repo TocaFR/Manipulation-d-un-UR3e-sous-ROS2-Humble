@@ -116,6 +116,7 @@ Maintenant que tous les préparatifs sont terminés, nous pouvons commencer à u
 Ca y est, vous êtes capables de déplacer le robot à l'aide de votre PC. Déplacez le robot à l'aide de votre souris, plannifiez et exécutez le déplacement vers la nouvelle position dans l'onglet MotionPlanning
 
 **Programme python** 
+
 Afin de lancer un programme python, il faut s'assurer d'abord que python est installé sur le PC.
 ```
 sudo apt install python3.10
