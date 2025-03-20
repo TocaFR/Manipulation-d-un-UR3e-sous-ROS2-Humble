@@ -67,7 +67,7 @@ Nous utiliserons directement les drivers fournis par Universal Robots afin de co
 ```
 sudo apt-get install ros-rolling-ur
 ```
-Cependant, le robot nécessite un module complémentaires (aussi appelé URCaps) permettant d'éxecuter des commandes par contrôle externe (Par addresse IPv4). Installez le fichier [externalcontrol-1.0.5.urcap](externalcontrol-1.0.5.urcap) et mettez-le sur dans clé USB afin de la brancher sur le teachbox du robot. 
+Cependant, le robot nécessite un module complémentaires (aussi appelé URCaps) permettant d'éxecuter des commandes par contrôle externe (Par adresse IPv4). Installez le fichier [externalcontrol-1.0.5.urcap](externalcontrol-1.0.5.urcap) et mettez-le sur dans clé USB afin de la brancher sur le teachbox du robot. 
 
 Ensuite nous allons installer l'URCaps dans le teach, pour cela allez dans les réglages du robot : 
 ![](assets/images/photo_3.jpeg)
@@ -78,6 +78,6 @@ Allez dans Système > URCaps, et cliquez sur le bouton **+** En bas de la fenêt
 Puis ouvrez votre fichier externalcontrol-1.0.5.urcap dans la fenêtre qui suit, une fois cela fait attendez que l'installation se termine, on vous proposera de redémarrer le robot afin de finaliser l'installation.
 ![](assets/images/photo_1.jpeg)
 
-Une fois redémarré, nous allons configurer les addresses IP du PC et du Robot. Dans notre cas nous allons attribuer au PC l'addresse IP 192.168.1.101, et celle du robot sera 192.168.1.100.
-Les deux addresses doivent se trouver <ins>sur le même réseau</ins>
+Une fois redémarré, nous allons configurer les adresses IP du PC et du Robot. Dans notre cas nous allons attribuer au PC l'adresse IP 192.168.1.101, et celle du robot sera 192.168.1.100.
+Les deux adresses doivent se trouver <ins>sur le même réseau</ins>
 
