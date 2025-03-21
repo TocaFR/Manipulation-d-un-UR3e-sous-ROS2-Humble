@@ -1,7 +1,7 @@
 # Manipulation d'un UR3e sous ROS2 Humble
 
 Ce tutoriel concerne l'étude réalisée lors d'un projet universitaire consistant à manipuler un bras industriel grâce à ROS2.
-Dans ce tuto nous réaliserons l'installation et utiliserons un robot UR3e sous ROS2. Nous verrons comment utiliser Moveit! mais aussi comment réaliser un premier programme python. Nous avons connecté le robot ainsi que le PC sous Ubuntu 22.04 en Ethernet sur un routeur. 
+Dans ce tuto nous réaliserons l'installation et utiliserons un robot UR3e sous ROS2. Nous verrons comment utiliser Moveit! mais aussi comment réaliser un premier programme python. Nous avons connecté le robot ainsi que le PC sous Ubuntu 22.04 en Ethernet sur un routeur.  Vous pourrez trouver le poster que nous avons réalisé afin de présenter notre projet lors de notre soutenance de projet.
 
 # Ressources utilisées
 - Linux Ubuntu 22.0.4
