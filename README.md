@@ -134,3 +134,9 @@ Ensuite, vous pouvez lancer un programme à l'aide de la commande suivante :
 python3 <nom_de_votre_programme.py>
 ```
 Des fichiers exemples sont disponibles dans le dossier scripts.
+
+**En résumé**
+
+- 1 Terminal actif permettant la connexion entre le robot et le PC, vous pouvez rajouter l'instruction launch_rviz:=false afin de ne pas lancer RViz pour soulager le PC.
+- 1 autre terminal actif permettant de déplacer le robot, cela peut être un terminal MoveIt! ou bien un programme python
+- Il est possible d'avoir un terminal moveIt ainsi qu'un autre terminal exécutant un script python, toutefois évitez de déplacer le robot avec moveit pendant l'exécution d'un programme.
