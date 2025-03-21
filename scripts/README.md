@@ -21,6 +21,24 @@ Dans ce programme d'exemple nous y trouverons directement les trajectoires, cepe
 C'est pour cela que nous avons créé un programme de palettisation faisant appel à un fichier .xml contenant nos trajectoires, ainsi qu'un sous programme manipulant la sortie numérique 0 du robot. Ce qui nous permet de manipuler l'ouverture et la fermeture de la pince RG2 de notre robot en utilisant un thread dans notre programme robot (en plus de l'instruction de contrôle externe). Nous avons également inséré la notion de programmation orienté objet (classes d'objet) afin de simplifier la rédaction du code.
 
 Vous pouvez éxecutez le programme de la même manière qu'avant : 
+
 ```
 python3 programme_palettisation.py
 ```
+
+Le sous programme ainsi que le fichier .xml seront automatiquement appelés par le script, pas besoin de s'en occuper dans d'autres terminaux.
+
+# Quelques explications
+
+**Fichier XML**
+
+![image](https://github.com/user-attachments/assets/13c5d24e-2dad-42ae-98dc-e0d66e05c4df)
+
+Dans le fichier .xml, nous aurons donc différentes trajectoires contenant différents points ayant pour attribut :
+- L'état de la pince
+- Les vitesses angulaires de chaque axe
+- Les positions angulaires de chaque axe
+- À partir de quel valeur de temps (en secondes) le robot doit atteindre la position
+
+
+
