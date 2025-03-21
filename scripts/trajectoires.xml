@@ -1,0 +1,277 @@
+<trajectories>
+    <trajectory name="traj0">
+        <point>
+            <time_from_start sec="3" nanosec="0"/>
+            <positions>
+                <position value="128"/>
+                <position value="-91"/>
+                <position value="100"/>
+                <position value="-102"/>
+                <position value="-87"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>false</gripper_status>
+        </point>
+        <point> 
+       	    <time_from_start sec="4" nanosec="0"/>
+            <positions>
+                <position value="129"/>
+                <position value="-81"/>
+                <position value="115"/>
+                <position value="-128"/>
+                <position value="-89"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>false</gripper_status>
+        </point>
+    </trajectory>
+
+    <trajectory name="traj1">
+        <point>
+            <time_from_start sec="1" nanosec="0"/>
+            <positions>
+                <position value="129"/>
+                <position value="-81"/>
+                <position value="115"/>
+                <position value="-128"/>
+                <position value="-89"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+        <point>
+            <time_from_start sec="2" nanosec="0"/>
+            <positions>
+                <position value="128"/>
+                <position value="-91"/>
+                <position value="100"/>
+                <position value="-102"/>
+                <position value="-87"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+        <point>
+            <time_from_start sec="6" nanosec="0"/>
+            <positions>
+                <position value="-90"/>
+                <position value="-100"/>
+                <position value="111"/>
+                <position value="-102"/>
+                <position value="-87"/>
+                <position value="14"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+        <point>
+            <time_from_start sec="7" nanosec="0"/>
+            <positions>
+                <position value="-90"/>
+                <position value="-92"/>
+                <position value="125"/>
+                <position value="-123"/>
+                <position value="-87"/>
+                <position value="14"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+    </trajectory>
+
+    <trajectory name="traj2">
+        <point>
+            <time_from_start sec="1" nanosec="0"/>
+            <positions>
+                <position value="-90"/>
+                <position value="-92"/>
+                <position value="125"/>
+                <position value="-123"/>
+                <position value="-87"/>
+                <position value="14"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>false</gripper_status>
+        </point>
+    </trajectory>
+
+    <trajectory name="traj3">
+        <point>
+            <time_from_start sec="1" nanosec="0"/>
+            <positions>
+                <position value="-90"/>
+                <position value="-92"/>
+                <position value="125"/>
+                <position value="-123"/>
+                <position value="-87"/>
+                <position value="14"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+        <point>
+            <time_from_start sec="2" nanosec="0"/>
+            <positions>
+                <position value="-90"/>
+                <position value="-100"/>
+                <position value="111"/>
+                <position value="-102"/>
+                <position value="-87"/>
+                <position value="14"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+        <point>
+            <time_from_start sec="6" nanosec="0"/>
+            <positions>
+                <position value="128"/>
+                <position value="-91"/>
+                <position value="100"/>
+                <position value="-102"/>
+                <position value="-87"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+        <point>
+            <time_from_start sec="7" nanosec="0"/>
+            <positions>
+                <position value="129"/>
+                <position value="-81"/>
+                <position value="115"/>
+                <position value="-128"/>
+                <position value="-89"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>true</gripper_status>
+        </point>
+    </trajectory>
+
+    <trajectory name="traj4">
+        <point>
+            <time_from_start sec="1" nanosec="0"/>
+            <positions>
+                <position value="129"/>
+                <position value="-81"/>
+                <position value="115"/>
+                <position value="-128"/>
+                <position value="-89"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>false</gripper_status>
+        </point>
+        <point>
+            <time_from_start sec="2" nanosec="0"/>
+            <positions>
+                <position value="128"/>
+                <position value="-91"/>
+                <position value="100"/>
+                <position value="-102"/>
+                <position value="-87"/>
+                <position value="50"/>
+            </positions>
+            <velocities>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+                <velocity value="0.001"/>
+            </velocities>
+            <gripper_status>false</gripper_status>
+        </point>
+    </trajectory>
+</trajectories>
+
