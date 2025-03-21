@@ -32,7 +32,7 @@ Le sous programme ainsi que le fichier .xml seront automatiquement appelés par 
 
 ## **Fichier XML**
 
-Dans le fichier .xml, nous aurons donc différentes trajectoires contenant différents points ayant pour attribut :
+Dans le [fichier .xml](trajectoires.xml), nous aurons donc différentes trajectoires contenant différents points ayant pour attribut :
 - L'état de la pince
 - Les vitesses angulaires de chaque axe
 - Les positions angulaires de chaque axe
