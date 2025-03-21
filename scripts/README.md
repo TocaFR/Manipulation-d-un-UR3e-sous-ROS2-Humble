@@ -30,7 +30,7 @@ Le sous programme ainsi que le fichier .xml seront automatiquement appelés par 
 
 # Quelques explications
 
-**Fichier XML**
+## **Fichier XML**
 
 Dans le fichier .xml, nous aurons donc différentes trajectoires contenant différents points ayant pour attribut :
 - L'état de la pince
@@ -40,7 +40,7 @@ Dans le fichier .xml, nous aurons donc différentes trajectoires contenant diff�
 
 ![image](https://github.com/user-attachments/assets/13c5d24e-2dad-42ae-98dc-e0d66e05c4df)
 
-**Thread robot pour manipuler la pince**
+## **Thread robot pour manipuler la pince**
 
 - Dans le programme Robot, ajoutez un thread en dessous de l'instruction de contrôle externe
 - Ajoutez une condition Si ... Sinon
