@@ -32,13 +32,19 @@ Le sous programme ainsi que le fichier .xml seront automatiquement appelés par 
 
 **Fichier XML**
 
-![image](https://github.com/user-attachments/assets/13c5d24e-2dad-42ae-98dc-e0d66e05c4df)
-
 Dans le fichier .xml, nous aurons donc différentes trajectoires contenant différents points ayant pour attribut :
 - L'état de la pince
 - Les vitesses angulaires de chaque axe
 - Les positions angulaires de chaque axe
 - À partir de quel valeur de temps (en secondes) le robot doit atteindre la position
 
+![image](https://github.com/user-attachments/assets/13c5d24e-2dad-42ae-98dc-e0d66e05c4df)
 
+**Thread robot pour manipuler la pince**
 
+- Dans le programme Robot, ajoutez un thread en dessous de l'instruction de contrôle externe
+- Ajoutez une condition Si ... Sinon
+- Si *digital_output[0] = True* Alors *RG2(60)* (Pince ouverte)
+- Sinon Si *digital_output[0] = False* Alors *RG2(0)* (Pince fermée)
+
+Si vous n'utilisez pas de pince, le robot pourra dans tous les cas effectuer le programme python puisqu'on ne fait que manipuler une sortie externe.
