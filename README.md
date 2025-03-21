@@ -108,6 +108,14 @@ ping 192.168.1.100
 ```
 
 # Contrôler le robot
+Avant toute chose, il faut s'assurer d'extraire les données de calibration du robot du robot, afin que ROS puisse simuler le robot convenablement :
+```
+ros2 launch ur_calibration calibration_correction.launch.py \
+robot_ip:=192.168.1.100 target_filename:="${HOME}/my_robot_calibration.yaml"
+```
+
+Plus d'informations sur [ce site](https://docs.universal-robots.com/Universal_Robots_ROS2_Documentation/doc/ur_robot_driver/ur_robot_driver/doc/installation/robot_setup.html#extract-calibration-information) 
+
 Maintenant que tous les préparatifs sont terminés, nous pouvons commencer à utiliser ROS2 pour piloter le robot. Voici les étapes à suivre (1 terminal par commande) :
 - Initier la connexion entre le robot et le pc à l'aide de la commande ``ros2 launch ur_robot_driver ur3e.launch.py robot_ip:=192.168.1.100`` (Cette commande est obligatoire afin d'utiliser les suivantes)
 - Lancez le programme robot sur le teach (afin de lancer le contrôle externe)
