@@ -9,6 +9,8 @@ Dans ce tuto nous réaliserons l'installation et utiliserons un robot UR3e sous 
 - Python 3.10.12
 - Drivers UR pour ROS2 Humble
 - MoveIt! / Rviz
+- Robot UR3e
+- Pince OnRobot RG2
 
 # Installation de ROS2 Humble
 Pour plus de détails sur l'installation, rendez-vous sur le site officiel de ROS2 Humble : 
